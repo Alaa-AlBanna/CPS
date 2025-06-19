@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #imglog {
+            height: 50px;
+            width: 10px;
+            align-items: center;
+            margin-left: 170px;
+            margin-top: 25px;
+            mix-blend-mode: darken;
+        }
+
+        #imglog img {
+            width: 500px;
+            margin-left: 200px;
+            align-items: center;
+        }
+
+        body {
+            background-color: rgb(24, 199, 226); 
+        }
+
+        .object1 {
+            align-items: center;
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="imglog">
+        <img src="getresponse.png" alt="Logo">
+
+    </div>
+    <div class="object1">
+        <form action="">
+            <h1 style="color: rgb(255, 255, 255);">Log in to get started!</h1>
+            <div>
+                <input type="text" name="fullname" id="fullname" required placeholder="    Enter your username or email"
+                    style="margin: 15px; margin-top: 30px; width: 250px; height: 40px; border-radius: 10px; border-style: none;">
+                <!--Err -->
+            </div>
+            <div>
+                <input type="password" name="password" id="password" required placeholder="    Enter your password"
+                    style="margin: 15px; width: 250px; height: 40px; border-radius: 10px; border-style: none;">
+            </div>
+            <p style="margin: 7px;">
+                Don't have an account?
+                <a href="index.html">Sign In</a>
+            </p>
+
+        </form>
+    </div>
+</body>
+
+</html>
